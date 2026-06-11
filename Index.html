@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <h1>Agro Forte: Futuro Sustentável</h1>
+
+    <div class="painel">
+        <div class="status">
+            Dinheiro: R$ <span id="dinheiro">100</span>
+        </div>
+
+        <div class="status">Meio Ambiente</div>
+        
+        <div class="barra">
+            <div class="nivel" id="ambienteBar"></div>
+        </div>
+
+        <button class="plantar" onclick="plantar()">Plantar</button>
+        <button class="preservar" onclick="preservar()">Preservar</button>
+
+        <p id="mensagem"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
